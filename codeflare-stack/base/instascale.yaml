@@ -6,9 +6,9 @@ spec:
   maxScaleoutAllowed: 15
   controllerResources:
     limits:
-      cpu: '$(instascale_cpu_limit)'
+      cpu: $(instascale_cpu_limit)
       memory: $(instascale_memory_limit)
     requests:
-      cpu: '$(instascale_cpu_request)'
+      cpu: $(instascale_cpu_request)
       memory: $(instascale_memory_request)
 
