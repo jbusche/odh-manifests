@@ -1,15 +1,21 @@
 varReference:
+  - path: data
+    kind: ConfigMap
   - path: subjects[]/namespace
     kind: ClusterRoleBinding
-  - path: spec/controllerResources/limits[]/cpu
+#  - path: spec/controllerResources/limits[]/cpu
+  - path: spec/controllerResources/limits/cpu
     kind: instascale
-    apiVersion: codeflare.codeflare.dev/v1alpha1
-  - path: spec/controllerResources/request[]/cpu
+#    apiVersion: codeflare.codeflare.dev/v1alpha1
+#  - path: spec/controllerResources/request[]/cpu
+  - path: spec/controllerResources/request/cpu
     kind: instascale
-    apiVersion: codeflare.codeflare.dev/v1alpha1pps/v1
-  - path: spec/controllerResources/limits[]/memory
+#    apiVersion: codeflare.codeflare.dev/v1alpha1pps/v1
+#  - path: spec/controllerResources/limits[]/memory
+  - path: spec/controllerResources/limits/memory
     kind: instascale
-    apiVersion: codeflare.codeflare.dev/v1alpha1pps/v1
-  - path: spec/controllerResources/request[]/memory
+#    apiVersion: codeflare.codeflare.dev/v1alpha1pps/v1
+#  - path: spec/controllerResources/request[]/memory
+  - path: spec/controllerResources/request/memory
     kind: instascale
-    apiVersion: codeflare.codeflare.dev/v1alpha1pps/v1
+#    apiVersion: codeflare.codeflare.dev/v1alpha1pps/v1
