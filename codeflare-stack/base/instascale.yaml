@@ -6,8 +6,12 @@ spec:
   maxScaleoutAllowed: 15
   controllerResources:
     limits:
-      cpu: \$(INSTASCALE_CPU_LIMIT)
-      memory: \$(INSTASCALE_MEMORY_LIMIT)
+      cpu: 1
+      memory: 1G
+      #cpu: \$(INSTASCALE_CPU_LIMIT)
+      #memory: \$(INSTASCALE_MEMORY_LIMIT)
     requests:
-      cpu: \$(INSTASCALE_CPU_REQUEST)
-      memory: \$(INSTASCALE_MEMORY_REQUEST)
+      cpu: 100m
+      memory: 100m
+      #cpu: \$(INSTASCALE_CPU_REQUEST)
+      #memory: \$(INSTASCALE_MEMORY_REQUEST)
