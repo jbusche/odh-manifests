@@ -11,9 +11,3 @@ spec:
     requests:
       cpu: $(INSTASCALE_CPU_REQUEST)
       memory: $(INSTASCALE_MEMORY_REQUEST)
-#      cpu: '1'
-#      memory: 1G
-#    requests:
-#      cpu: '1'
-#      memory: 1G
-
