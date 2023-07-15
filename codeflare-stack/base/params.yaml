@@ -4,10 +4,10 @@ varReference:
   - path: subjects[]/namespace
     kind: ClusterRoleBinding
   - path: spec/controllerResources/limits/cpu
-    kind: instascale
+    kind: InstaScale
   - path: spec/controllerResources/request/cpu
-    kind: instascale
+    kind: InstaScale
   - path: spec/controllerResources/limits/memory
-    kind: instascale
+    kind: InstaScale
   - path: spec/controllerResources/request/memory
-    kind: instascale
+    kind: InstaScale
