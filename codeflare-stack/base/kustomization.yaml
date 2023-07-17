@@ -18,8 +18,8 @@ vars:
       fieldpath: data.namespace
   - name: INSTASCALE_CPU_LIMIT
     objref:
-      #kind: ConfigMap
-      kind: InstaScale
+      kind: ConfigMap
+      #kind: InstaScale
       name: codeflare-stack-config
       apiVersion: v1
     fieldref:
