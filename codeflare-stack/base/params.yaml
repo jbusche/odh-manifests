@@ -5,9 +5,9 @@ varReference:
     kind: ClusterRoleBinding
   - path: spec/controllerResources/limits/cpu
     kind: InstaScale
-  - path: spec/controllerResources/request/cpu
+  - path: spec/controllerResources/requests/cpu
     kind: InstaScale
   - path: spec/controllerResources/limits/memory
     kind: InstaScale
-  - path: spec/controllerResources/request/memory
+  - path: spec/controllerResources/requests/memory
     kind: InstaScale
