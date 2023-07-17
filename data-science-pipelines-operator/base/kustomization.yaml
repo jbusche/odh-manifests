@@ -71,12 +71,12 @@ vars:
       apiVersion: v1
     fieldref:
       fieldpath: data.IMAGES_MARIADB
-  - name: IMAGES_DSPO
-    objref:
-      kind: ConfigMap
-      name: dspo-parameters
-      apiVersion: v1
-    fieldref:
-      fieldpath: data.IMAGES_DSPO
+#  - name: IMAGES_DSPO
+    #objref:
+      #kind: ConfigMap
+      #name: dspo-parameters
+      #apiVersion: v1
+    #fieldref:
+      #fieldpath: data.IMAGES_DSPO
 configurations:
   - params.yaml
