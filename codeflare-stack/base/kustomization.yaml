@@ -16,35 +16,34 @@ vars:
       apiVersion: v1
     fieldref:
       fieldpath: data.namespace
-  - name: INSTASCALE_CPU_LIMIT
-    objref:
-      kind: ConfigMap
-      name: codeflare-stack-config
-      apiVersion: v1
-    fieldref:
-      fieldpath: data.INSTASCALE_CPU_LIMIT
-  - name: INSTASCALE_CPU_REQUEST
-    objref:
-      kind: ConfigMap
-      name: codeflare-stack-config
-      apiVersion: v1
-    fieldref:
-      fieldpath: data.INSTASCALE_CPU_REQUEST
-  - name: INSTASCALE_MEMORY_LIMIT
-    objref:
-      kind: ConfigMap
-      name: codeflare-stack-config
-      apiVersion: v1
-    fieldref:
-      fieldpath: data.INSTASCALE_MEMORY_LIMIT
-  - name: INSTASCALE_MEMORY_REQUEST
-    objref:
-      kind: ConfigMap
-      name: codeflare-stack-config
-      apiVersion: v1
-    fieldref:
-      fieldpath: data.INSTASCALE_MEMORY_REQUEST
-
+#  - name: INSTASCALE_CPU_LIMIT
+    #objref:
+      #kind: ConfigMap
+      #name: codeflare-stack-config
+      #apiVersion: v1
+    #fieldref:
+      #fieldpath: data.INSTASCALE_CPU_LIMIT
+  #- name: INSTASCALE_CPU_REQUEST
+    #objref:
+      #kind: ConfigMap
+      #name: codeflare-stack-config
+      #apiVersion: v1
+    fi#eldref:
+      #fieldpath: data.INSTASCALE_CPU_REQUEST
+  #- name: INSTASCALE_MEMORY_LIMIT
+  #  objref:
+  #    kind: ConfigMap
+  #    name: codeflare-stack-config
+  #    apiVersion: v1
+  #  fieldref:
+  #    fieldpath: data.INSTASCALE_MEMORY_LIMIT
+  #- name: INSTASCALE_MEMORY_REQUEST
+  #  objref:
+  #    kind: ConfigMap
+  #    name: codeflare-stack-config
+  #    apiVersion: v1
+  #  fieldref:
+  #    fieldpath: data.INSTASCALE_MEMORY_REQUEST
 resources:
 - codeflare-notebook-imagestream.yaml
 - instascale.yaml
