@@ -10,3 +10,14 @@ spec:
   podCreationTimeout: 300
   preemptionEnabled: false
   quotaRestURL: 'null'
+  controllerResources:
+    limits:
+      #cpu: 1
+      #memory: 1G
+      cpu: $(MCAD_CPU_LIMIT)
+      memory: $(MCAD_MEMORY_LIMIT)
+    requests:
+      #cpu: 100m
+      #memory: 100m
+      cpu: $(MCAD_CPU_REQUEST)
+      memory: $(MCAD_MEMORY_REQUEST)

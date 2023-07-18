@@ -11,3 +11,12 @@ varReference:
     kind: InstaScale
   - path: spec/controllerResources/requests/memory
     kind: InstaScale
+  - path: spec/controllerResources/limits/cpu
+    kind: MCAD
+  - path: spec/controllerResources/requests/cpu
+    kind: MCAD
+  - path: spec/controllerResources/limits/memory
+    kind: MCAD
+  - path: spec/controllerResources/requests/memory
+    kind: MCAD
+
